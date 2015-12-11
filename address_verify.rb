@@ -1,5 +1,5 @@
 require 'easypost'
-EasyPost.api_key = '1kMp7QzmFKYo4oI9fsPfdw'
+EasyPost.api_key = 'ENTERKEY'
 
 puts address = EasyPost::Address.create_and_verify(
     :name => 'Tom Shannon',
